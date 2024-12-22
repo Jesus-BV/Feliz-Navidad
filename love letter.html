@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="love letter.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Feliz Navidad</title>
+    <style>
+      .open-gift-button {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 12px 24px;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Playfair Display', serif; /* Cambia la fuente aquí */
+        font-weight: bold;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+      }
+
+      .open-gift-button:hover {
+        background-color: #ff0000; /* Color más oscuro al pasar el cursor */
+        transform: translateX(-50%) scale(1.1);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">  
+     <div class="valentines">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+       <div class="text">
+        To my<br />
+        Crush Lore<br />
+        I love You!
+      </div>
+      <div class="heart"</div>
+    </div>
+    <div class="hearts">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+      <div class="five"></div>
+    </div>
+  </div>
+</div>
+<div class="shadow"></div>
+<script src="love letter.js"></script>
+<button class="open-gift-button" onclick="openGift()">Abrir</button>
+<script>
+  function openGift() {
+    window.location.href = 'nosotros.jpeg';
+  }
+</script>
+</body>
+</html>
+```
